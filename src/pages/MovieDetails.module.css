@@ -1,0 +1,25 @@
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+.col > p:first-child{
+    margin-top: 0;
+}
+.movieImageDetails {
+    border-radius: 15px;
+}
+@media (max-width:500px) {
+    /* .detailsContainer {
+        flex-direction: column;
+    } 
+    .col {
+        max-width: 100%;
+    }*/
+}

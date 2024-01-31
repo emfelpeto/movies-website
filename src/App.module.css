@@ -1,0 +1,17 @@
+:root {
+  --blue: #00d7e6;
+  --blueHover: #038791;
+}
+.title {
+  /* --blue: #00e600; */
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--blue),
+    0 0 40px var(--blue), 0 0 50px var(--blue), 0 0 60px var(--blue),
+    0 0 70px var(--blue);
+}
+.title:hover {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--blueHover),
+    0 0 40px var(--blueHover), 0 0 50px var(--blueHover), 0 0 60px var(--blueHover),
+    0 0 70px var(--blueHover);
+}
